@@ -17,6 +17,12 @@ The analysis would draw on match and training data from the Rwanda Premier Leagu
 
 Performance measures would be adjusted for age and level of competition, then combined into a projected value curve for each player. The window is flagged where the projected curve peaks relative to contract expiry. The approach would be checked against players Rayon Sports has already sold or released, to see whether the model would have flagged the right window at the time. No implementation is required at this stage.
 
+## Prototype Enhancement
+
+**What is being changed.** The original design reports one projected valuation per player. This enhancement replaces that single number with three scenarios, a base case, a low case, and a high case, built on different assumptions about performance trajectory and market demand. It also adds a short sensitivity view showing which inputs move the window the most.
+
+**Why this change could improve decision-making.** Projected valuations depend heavily on assumptions that can shift within a single season, and transfer demand for Rwandan players is thin enough that one or two deals can move the market. A single point estimate hides that risk and makes a recommendation look more certain than it is. With three scenarios, leadership can ask whether the recommended commercial action still holds if a player's form dips or the market cools. That turns the dashboard from a forecast into a decision tool, and it directly answers a question raised in project review.
+
 ## Use by Decision Makers
 
 The technical director would open the dashboard during squad planning, filtered by contract expiry and position, to see which players are entering or leaving their window. Club leadership and finance would compare development spend against projected value to judge the return on the academy. Academy coaches would use the same player view to see which players justify continued investment. The dashboard supports those conversations rather than replacing the judgment of the people in them.
