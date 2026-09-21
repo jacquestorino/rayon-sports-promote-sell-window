@@ -24,6 +24,13 @@ The technical director would open the dashboard during squad planning, filtered 
 ## Connection to Chapter 7
 
 This idea sits in the prototyping phase and is moving into engagement. The concept is defined, the intended user is named, and the decisions it supports are specific, but nothing has been built and no recommendation has been tested against a real outcome at Rayon Sports.
+
+## Prototype Evaluation
+
+**Should the prototype enhancement be integrated?** Yes. The scenario view uses inputs the model already relies on, it does not change the underlying method, and it makes the uncertainty visible instead of hiding it. It is the change most likely to build leadership confidence in the recommendations.
+
+**What feedback from decision makers would influence this decision?** Reviewer feedback has already pointed to two conditions. First, the dashboard needs a way to validate that recommended windows actually improve outcomes. That means logging each recommendation and then tracking it against actual player performance, transfer activity, and financial results over a set period, so the tool can report its own hit rate back to club leadership. Second, the scenario view only helps if the technical director finds three numbers usable in a planning meeting rather than confusing. If leadership asks for a single figure to act on, the presentation needs to lead with the base case and keep the range one click away. The reliability of transfer comparables would also have to be confirmed, since the number of recorded deals out of the Rwanda Premier League is small.
+
 ## References
 
 Alamar, B. C. (2024). *Sports analytics: A guide for coaches, managers, and other decision makers*. Columbia University Press.
