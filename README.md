@@ -37,6 +37,14 @@ This idea sits in the prototyping phase and is moving into engagement. The conce
 
 **What feedback from decision makers would influence this decision?** Reviewer feedback has already pointed to two conditions. First, the dashboard needs a way to validate that recommended windows actually improve outcomes. That means logging each recommendation and then tracking it against actual player performance, transfer activity, and financial results over a set period, so the tool can report its own hit rate back to club leadership. Second, the scenario view only helps if the technical director finds three numbers usable in a planning meeting rather than confusing. If leadership asks for a single figure to act on, the presentation needs to lead with the base case and keep the range one click away. The reliability of transfer comparables would also have to be confirmed, since the number of recorded deals out of the Rwanda Premier League is small.
 
+## Reflection on Innovation and Version Control
+
+**How branches support low-risk experimentation.** A branch lets an analyst change a metric definition, add a data source, or rework how results are presented without touching the version the club is using. The experiment sits beside the working product instead of on top of it. If it does not hold up, the branch is abandoned and nothing is lost. That lowers the cost of being wrong, which is what makes experimentation possible in an organization that cannot afford broken reporting in the middle of a season.
+
+**How GitHub helps analytics ideas gain traction.** Most analytics ideas fail for reasons that have little to do with the math. They fail because the reasoning was never written down, because decision makers saw the idea too late, or because no one could tell what changed between versions. A repository addresses much of that. The README states the decision the idea serves in plain language, commit messages record why each change was made, and a pull request gives decision makers a place to review and respond before anything is adopted.
+
+**How this workflow aligns with the innovation framework in Chapter 7.** The four phases map onto the tools closely. The creative phase is the README written on the main branch. Prototyping is the separate branch. Engagement is the review that happens before the merge, including the evaluation section written in response to reviewer questions. Build is the merge itself, which makes the enhancement part of the shared project. Version control does not create innovation, but it gives the cycle a structure and a record, which is what helps an idea survive long enough to be implemented.
+
 ## References
 
 Alamar, B. C. (2024). *Sports analytics: A guide for coaches, managers, and other decision makers*. Columbia University Press.
